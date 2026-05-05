@@ -1,0 +1,29 @@
+.campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.campo label {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+.campo input, .campo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+#btn-enviar {
+    background-color: #8b0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn-enviar:hover {
+    background-color: #ff0000;
+}

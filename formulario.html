@@ -27,7 +27,7 @@
               <a href="index.html">HOME</a>
             </li>
             <li>
-              <a href="formulario.html">FORMULÀRIO</a>
+              <a href="formulario.html">FORMULÁRIO</a>
             </li>
           </ul>
         </nav>
@@ -35,7 +35,34 @@
     </header>
     <div class="hero"></div>
     <section class="section-formulario">
+      <H2>Entre em Contato</H2>
+      <form id="form-contato" action="enviar.php" method="post">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <div class="campo">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+        </div>
+        <div class="campo">
+          <label for="telefone">Telefone:</label>
+          <input type="text" name="telefone" id="telefone" placeholder="Seu número" required>
+        </div>
+        <div class="campo">
+          <label for="mensagem">Mensagem: </label>
+          <textarea name="mensagem" id="mensagem" placeholder="Como podemos ajudar?" required></textarea>
+        </div>
+
+       <button type="submit" id="btn-enviar">Enviar formulario</button>
+      </form>
+      <div id="mensagem-sucesso" style="display:none; color: green; margin-top: 10px;">
+        Formulário enviado com sucesso!
+    </div>
         
     </section>
+    
+    <script src="script.js" defer></script>
   </body>
 </html>
