@@ -1,12 +1,7 @@
 @import url(header.css);
 @import url(hero.css);
+@import url(about.css);
+@import url(global.css);
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    background-color: #f0f0f0;
-}
 
