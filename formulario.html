@@ -27,7 +27,7 @@
               <a href="index.html">HOME</a>
             </li>
             <li>
-              <a href="formulario.html">FORMULÁRIO</a>
+              <a href="formulario.html">FALE CONOSCO</a>
             </li>
           </ul>
         </nav>
@@ -35,7 +35,9 @@
     </header>
     <div class="hero"></div>
     <section class="section-formulario">
-      <H2>Entre em Contato</H2>
+      <div class="section-title">
+      <h1>ENTRE EM CONTATO</h1>
+      </div>
       <form id="form-contato" action="enviar.php" method="post">
         <div class="campo">
           <label for="nome">Nome:</label>
@@ -57,9 +59,10 @@
 
        <button type="submit" id="btn-enviar">Enviar formulario</button>
       </form>
-      <div id="mensagem-sucesso" style="display:none; color: green; margin-top: 10px;">
-        Formulário enviado com sucesso!
-    </div>
+      <div id="mensagem-sucesso">
+        <img src="imgs/check.png" alt="">
+        <p>FORMULÁRIO ENVIADO COM SUCESSO! <span>Para mais informações entraremos em contato.</span></p>
+      </div>
         
     </section>
     

@@ -15,7 +15,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #btn-enviar {
-    background-color: #8b0000;
+    background-color: #d00303;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -25,5 +25,25 @@
 }
 
 #btn-enviar:hover {
-    background-color: #ff0000;
+    background-color: #920101;
+}
+
+#mensagem-sucesso{
+    display:none; 
+    color: #d00303; 
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#mensagem-sucesso span{
+    color: #000000; 
+}
+
+#mensagem-sucesso img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
 }
