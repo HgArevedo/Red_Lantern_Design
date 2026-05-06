@@ -11,8 +11,8 @@
 }
 
 .logo{
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
 }
 
 .menu p{
@@ -52,10 +52,20 @@
     text-decoration: none;
     font-family: "Poppins";
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
 }
 .navigation-links li a:hover{
     color: #ffbbbb;
+}
+
+@media screen and (min-width: 375px) {
+    .navigation-links li a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+    }
 }
 
 @media screen and (min-width: 425px) {

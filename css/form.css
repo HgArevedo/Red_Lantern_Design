@@ -36,7 +36,7 @@
 }
 
 #mensagem-sucesso p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #mensagem-sucesso span{
@@ -49,6 +49,12 @@
     border-radius: 10px;
     width: 60px;
     height: 60px;
+}
+
+@media screen and (min-width: 375px) {
+    #mensagem-sucesso p{
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 425px) {

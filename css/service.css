@@ -18,8 +18,8 @@
 
 
 .service-card{
-    width: 312px;
-    height: 268px;
+    width: 266px;
+    height: 220px;
     border: 2px solid;
     border-color: #d00303;
     border-radius: 10px;
@@ -42,6 +42,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+
+@media screen and (min-width: 375px) {
+    .service-card{
+        width: 312px;
+        height: 268px;
+    }    
 }
 
 @media screen and (min-width: 768px) {
