@@ -33,7 +33,10 @@
     color: #d00303; 
     font-weight: bold;
     margin-top: 10px;
-    font-size: 20px;
+}
+
+#mensagem-sucesso p{
+    font-size: 12px;
 }
 
 #mensagem-sucesso span{
@@ -46,4 +49,22 @@
     border-radius: 10px;
     width: 60px;
     height: 60px;
+}
+
+@media screen and (min-width: 425px) {
+    #mensagem-sucesso p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #mensagem-sucesso p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #mensagem-sucesso p{
+        font-size: 20px;
+    }
 }

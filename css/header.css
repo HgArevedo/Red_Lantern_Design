@@ -52,10 +52,16 @@
     text-decoration: none;
     font-family: "Poppins";
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 .navigation-links li a:hover{
     color: #ffbbbb;
+}
+
+@media screen and (min-width: 425px) {
+    .navigation-links li a{
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 768px) {
